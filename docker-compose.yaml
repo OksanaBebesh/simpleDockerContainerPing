@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+       container1:
+         build: ./.docker/container1
+         networks:
+           - my_network
+       container2:
+         build: ./.docker/container2
+         networks:
+           - my_network
+
+networks:
+ my_network:
