@@ -1,5 +1,9 @@
 docker-compose up --build -d
+
+
 docker ps
+
+
 docker exec -it <container1_name> ping <container2_name>
 
 -----------------------------------------------------------
